@@ -1,0 +1,23 @@
+{
+  "oci": {
+    "compartment_id": "ocid1.compartment.oc1..aaaaaaaacqxr3j2qbhntidg2s32gb67lv7ydpbfkvcazqvnjfsaxj3vdxr7a",
+    "config_profile": "DEFAULT",
+    "config_file_path": "~/.oci/config"
+  },
+  "service": {
+    "endpoint": "https://inference.generativeai.us-ashburn-1.oci.oraclecloud.com",
+    "model_ocid": "ocid1.generativeaimodel.oc1.iad.amaaaaaask7dceyaeo4ehrn25guuats5s45hnvswlhxo6riop275l2bkr2vq"
+  },
+  "chat_parameters": {
+    "max_tokens": 6000,
+    "temperature": 1.0,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "top_p": 0.95,
+    "top_k": 1
+  },
+  "timeout": {
+    "connect_timeout": 10,
+    "read_timeout": 240
+  }
+}
