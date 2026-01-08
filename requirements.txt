@@ -1,0 +1,6 @@
+flask
+flask-cors
+oci
+requests
+gunicorn
+python-dotenv
